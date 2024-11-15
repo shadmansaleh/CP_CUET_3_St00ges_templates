@@ -2,11 +2,11 @@
   "name": "cp_templates",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx codes2pdf ./templates/ --author 'CUET\\_3\\_ST00ges' --initials 'CUET\\_3\\_ST00ges' --output ./cp_template.pdf"
+    "build": "npx codes2pdf ./templates/ --author 'CUET\\_3\\_St00ges' --initials 'CUET\\_3\\_St00ges' --institute 'Chittagong University of Engineering \\& Technology' --output ./cp_template.pdf"
   },
   "author": "shadmansale",
   "description": "",
   "dependencies": {
-    "codes2pdf": "^1.0.5"
+    "codes2pdf": "github:shadmansaleh/codes2pdf"
   }
 }
